@@ -69,9 +69,8 @@ class Wikimedia:
                 sleep(0.5)
                 if b'data' in line:
                     line = line.decode("utf8")[6:]
-                    line = json.loads(line)
-                    print(line["user"])
-                    #data.write(json.dumps(line))
+                    line = json.dumps(line)
+                    yield line
         
 
 ########################################################################################################################

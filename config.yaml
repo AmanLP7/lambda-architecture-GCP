@@ -1,0 +1,4 @@
+#################################### The file contains GCP account related information #################################
+
+project_id: "data-pipeline-345813"
+topic_id: "wiki_data"
